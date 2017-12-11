@@ -1,0 +1,270 @@
+body{
+    background: #f1e6da;
+    font-family: 'Open Sans', sans-serif;
+    color:#555;
+     background-image: url(pics/booksbackground.jpg);
+    background-attachment: fixed;
+}
+a{text-decoration: none;}
+#page{
+    width:1000px;
+    margin-left:15%;
+    background:#f1e6da;
+    /*#CD9B9B*/
+    border-radius:2px;
+    padding:10px;
+    margin-top:90px;
+    /*border:1px solid #aaa;*/
+   
+}
+#heading{
+	text-align: center;
+	font-family: cursive;
+	color: #D8BFD8;
+    
+}
+p{margin-left:10px;text-align:center;}
+
+h1{
+    text-align:center;
+	text-shadow: 2px 2px 4px #fff;
+    color:#000;
+	font-size: 40px;
+}
+h2{
+	text-align:;
+	color:#333;	 
+	font-size: 25px;
+    border-bottom:1px solid #333;
+}
+h3{
+	text-align:center;
+	color:#333;	
+	font-size: 20px;
+}
+
+fieldset{
+    margin-left:120px;
+    width:500px;
+    
+}
+label{}
+
+#header{
+    background:transparent;
+    padding:5px;
+    text-align: center;
+    width:100%;
+    position:fixed;
+    top:0px;
+    left:0px; 
+    height:30px;
+    font-size:13px;
+    text-transform:uppercase;
+    /*border-bottom:2px solid #333;*/
+    z-index: 100;
+    opacity:.8;
+    background-image: url(pics/booksbackground.jpg);
+    -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+  -ms-backdrop-filter: blur(10px);
+}
+#header .title{float:left; color:#fff;margin-top:10px;}
+#header .nav{margin-top:10px;}
+#header a{color:#fff; margin:3px;}
+.nlinks{float:right;padding-right:10px;}
+
+/*------------INDEX PAGE------------*/
+#content{
+    font-family: georgia;
+	text-align: center; 
+}
+
+
+#booksslideshow{
+    background-color:;
+    /*BC8F8F*/
+    width: 380px;
+    padding: 20px;
+    margin-left: 400px;
+}
+
+ul{
+	display: none; 
+	margin: 0;
+	padding: 0;
+	text-align: center; 
+}
+pic{
+	height: 250px;
+	width: 350px;
+}
+img.BooksSlide{
+    
+}
+img.inpics{
+    width:140px;
+    height:200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left:50px;
+    margin-top:10px;
+}
+
+
+/*------------TABLES------------*/
+table{
+    margin-left:25%;
+}
+table, th, td{
+    border:1px solid #000;
+    border-collapse: collapse;
+    padding:5px;
+}
+
+/*------------LOG-IN FORM------------*/
+
+.loginform input[type="text"]{
+    width: 250px;
+    margin-left:35%;
+    height:25px;
+    background:transparent;
+}
+.loginform input[type="password"]{
+    width: 250px;
+    margin-left:35%;
+    height:25px;
+    margin-top:20px;
+    background:transparent;
+}s
+.loginform input[type="submit"]{
+    width:80px;
+    height:20px;
+    display:block;
+}
+.loginform input[placeholder]{
+    font-size:15px;
+}
+/*------------REGISTER FORM------------*/
+.registerform{
+    margin-left:15%;
+    padding:20px;
+}
+.registerform input[type="text"]{
+    width:200px;
+    height:20px;
+    margin:5px;
+}
+.registerform input[type="email"]{
+    width:200px;
+    height:20px;
+    margin:5px;
+}
+.registerform input[type="password"]{
+    width:200px;
+    height:20px;
+    margin:5px;
+}
+.registerform input[placeholder]{
+    font-size:12px;
+}
+
+/*------------ADD BOOK------------*/
+.addbookform{
+    padding-left:350px;
+}
+.addbookform input[type="text"]{
+    width:150px;
+}
+.addbookform label{
+    padding-right:10px
+}
+/*------------UPDATE BOOK------------*/
+.updatebook{
+    margin-left:25%;
+    padding:20px;
+} 
+.updatebook input[type="text"]{
+    width:150px;
+    margin:5px;
+}
+/*------------REVIEW BOOK------------*/
+.reviewbook{
+    margin-left:30%;
+    padding:20px;
+} 
+.review input[type="text"]{
+    width:150px;
+    margin:5px;
+}
+/*--------------SEARCH LIBRARY---------*/
+
+.searchform{
+    padding-left:300px;
+}
+.searchform input[type="text"]{
+    width: 200px;
+    height:20px;
+}
+/*------------LIBRRAY------------*/
+#librarycontainer{
+    width:1100px;
+    height:350%;
+    background:transparent;
+    position:inherit;
+    /*margin-left:80px;*/
+    
+}
+#box{
+    border:;
+    padding:5px;
+    width:200px;
+    height:400px;
+    margin:10px;
+    margin-right:35px;
+    float:left;
+    
+    
+}
+#box .img{
+    border:0px solid #000;
+    width:200px;
+    height:300px;
+    box-shadow: 10px 10px 5px #888888;
+    
+}
+#box .bt{
+    font-size:15px;
+    text-align:center;
+    height:25px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC', serif;
+}
+
+#box .infobox{
+    background:#000;
+    color:#fff;
+    position:relative;
+    margin-top:-300px;
+    max-width:200px;
+    height:290px;
+    opacity:0;
+    padding:5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    text-align:center;
+}
+#box .infobox:hover{opacity:.9;
+     -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+/*--------------LIBRARY CART------------------*/
+.cart input[type="image"]{
+    margin-left:250px;
+}
+.table-bordered{
+    margin-left:0px;
+}
